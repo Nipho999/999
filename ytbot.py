@@ -23,15 +23,15 @@ quality = int(input(Fore.RED + ">>choose available Video Quality:  1080 / 720 / 
 slowprint(Fore.BLUE + "[+]>>Downloading video ..... please wait..",0.5)
 if quality == 1080:
     stream = myVid.streams.get_by_itag(137)
-    stream.download()
+    stream.download("/storage/emulated/0/download")
     slowprint(Fore.GREEN + ">>🅳🅾🆆🅽🅻🅾🅰🅳 🅲🅾🅼🅿🅻🅴🆃🅴...",0.7)
 elif quality == 720:
     stream = myVid.streams.get_by_itag(22)
-    stream.download()
+    stream.download("/storage/emulated/0/download")
     slowprint(Fore.GREEN + ">>🅳🅾🆆🅽🅻🅾🅰🅳 🅲🅾🅼🅿🅻🅴🆃🅴....",0.7)
 elif quality == 360:
     stream = myVid.streams.get_by_itag(18)
-    stream.download()
+    stream.download("/storage/emulated/0/download")
     slowprint(Fore.GREEN + ">>🅳🅾🆆🅽🅻🅾🅰🅳 🅲🅾🅼🅿🅻🅴🆃🅴...",0.7)
 
 else: slowprint (Fore.YELLOW +"SOMETHING WENT WRONG",0.10 )
