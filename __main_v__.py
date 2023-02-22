@@ -45,3 +45,5 @@ def on_progress(stream, chunk, bytes_remaining):
     if liveprogress > previousprogress:
         previousprogress = liveprogress
         print(liveprogress)
+os.system('clear')
+slowprint(Fore.RED + "VIDEO SAVED TO DOWNLOADS",0.15)
