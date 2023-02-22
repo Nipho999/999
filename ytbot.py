@@ -18,9 +18,9 @@ while True:
     choice = input("> ")
 
     if choice == "1":
-        subprocess.run(["python", "videos.py"])
+        subprocess.run(["python", "__main_v__.py"])
     elif choice == "2":
-        subprocess.run(["python", "music.py"])
+        subprocess.run(["python", "__main_a__.py"])
     elif choice == "3":
         break
     else:
