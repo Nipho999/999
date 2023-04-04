@@ -1,3 +1,0 @@
-slowprint==0.0.1
-colorama==0.4.6
-pytube==12.1.2
