@@ -10,6 +10,8 @@ Termux API apk
 
 You can download it from here
 
+https://f-droid.org/repo/com.termux.api_51.apk
+
 install on termux:
 
 apt update && apt upgrade -y
