@@ -17,12 +17,14 @@ https://f-droid.org/repo/com.termux.api_51.apk
 #TERMUX-INSTALLATION:
 
 apt update && apt upgrade -y
-pkg install python -y
-pkg install python-pip
 pkg install git
+pkg install python
+pkg install python-pip
+pkg install beanshell
 git clone https://github.com/Nipho999/999
 cd 999
 python setup.py
-python start.py
+chmod +x zaplugs.sh
+bash zaplugs.sh
 
 Enjoy !!
