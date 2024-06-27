@@ -1,12 +1,12 @@
-#999-T00LZ
+# <big> 999-T00LZ </big>
 
-1.)youtube dl ( mp4/mp3)
+## - youtube dl [ mp4/mp3 ]
 
-2.)subdomains finder 
+## - subdomains finder 
 
-3.)reverse ip / domain lookup
+## - reverse ip / domain lookup
 
-#REQUIREMENTS!!!
+# REQUIREMENTS!!!
 
 Termux API apk
 
@@ -14,17 +14,17 @@ You can download it from here
 
 https://f-droid.org/repo/com.termux.api_51.apk
 
-#TERMUX-INSTALLATION:
+# TERMUX-INSTALLATION:
 
-apt update && apt upgrade -y
-pkg install git
-pkg install python
-pkg install python-pip
-pkg install beanshell
-git clone https://github.com/Nipho999/999
-cd 999
-python setup.py
-chmod +x zaplugs.sh
-bash zaplugs.sh
+apt update && apt upgrade -y<br>
+pkg install git<br>
+pkg install python<br>
+pkg install python-pip<br>
+pkg install beanshell<br>
+git clone https://github.com/Nipho999/999<br>
+cd 999<br>
+python setup.py<br>
+chmod +x zaplugs.sh<br>
+bash zaplugs.sh<br>
 
 Enjoy !!
