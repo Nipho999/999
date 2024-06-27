@@ -1,4 +1,4 @@
-#999 Tools
+#999-T00LZ
 
 1.)youtube dl ( mp4/mp3)
 
@@ -6,7 +6,7 @@
 
 3.)reverse ip / domain lookup
 
-#Requirements!!
+#REQUIREMENTS!!!
 
 Termux API apk
 
@@ -14,7 +14,7 @@ You can download it from here
 
 https://f-droid.org/repo/com.termux.api_51.apk
 
-#install on termux:
+#TERMUX-INSTALLATION:
 
 apt update && apt upgrade -y
 pkg install python -y
