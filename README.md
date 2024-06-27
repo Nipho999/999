@@ -1,10 +1,12 @@
 #999 Tools
 
-1.)pytube
+1.)youtube dl ( mp4/mp3)
 
-2.)subdomains finder
+2.)subdomains finder 
 
-Requirements!!
+3.)reverse ip / domain lookup
+
+#Requirements!!
 
 Termux API apk
 
@@ -12,7 +14,7 @@ You can download it from here
 
 https://f-droid.org/repo/com.termux.api_51.apk
 
-install on termux:
+#install on termux:
 
 apt update && apt upgrade -y
 pkg install python -y
