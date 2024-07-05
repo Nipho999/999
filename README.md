@@ -1,5 +1,6 @@
 ## Mr16-T00LZ
 <small>
+ 
 - youtube dl [ mp4/mp3 ]
 
  - subdomains finder 
@@ -16,15 +17,38 @@
 
 ## TERMUX-INSTALLATION:
 
-```apt update && apt upgrade -y ```<br><br>
-```pkg install git```<br><br>
-``pkg install python``<br><br>
-``pkg install python-pip``<br><br>
-``pkg install beanshell``<br><br>
-``git clone https://github.com/Nipho999/999<br>
-cd 999``<br><br>
-``python setup.py``<br><br>
-``chmod +x zaplugs.sh``<br><br>
-``bash zaplugs.sh``<br><br>
+```
+apt update && apt upgrade -y
+```
+```
+pkg install git
+```
+```
+pkg install python
+```
+```
+pkg install python-pip
+```
+```
+pkg install beanshell
+```
+```
+git clone https://github.com/Nipho999/999
+```
+```
+cd 999
+```
+
+```
+python setup.py
+```
+```
+chmod +x zaplugs.sh
+```
+```
+bash zaplugs.sh
+```
 </small>
-Enjoy !!
+
+
+This project rely on many urls that provides apis for scanning subdomains , we don't save or store any information...
